@@ -1,0 +1,37 @@
+body {
+    background-image: url(https://m.media-amazon.com/images/S/pv-target-images/0c9ce4e037546965d6b1f3807e9f8f549a113d32066b2bdb22ada5d179c0d89a.jpg);
+    background-size: cover;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+table, td {
+    border: black 2px solid;
+    border-collapse: collapse;
+}
+td {
+    padding: 5px;
+}
+.hidden {
+    display: none;
+}
+td {
+    background-color: #a3b3ff;
+}
+.desc {
+    background-color: #9f0712;
+    color: white;
+}
+#feilMelding {
+    padding: 10px;
+    background-color: rgba(39, 39, 42, 0.9);
+    color: white;
+    border-radius: 10px;
+}

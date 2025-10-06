@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto Database</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="https://i.pinimg.com/474x/e6/13/ae/e613ae754519902309368bbad7bbe115.jpg">
+</head>
+<body>
+    <br>
+    <div id="main">
+        <input type="text" id="searchText" placeholder="Skriv inn en person her" value="Naruto Uzumaki">
+        <button id="search">Search</button>
+
+        <table class="hidden" id="hidster">
+            <tr>
+                <td class="desc">Name:</td>
+                <td id="name"></td>
+            </tr>
+            <tr>
+                <td class="desc">Debut Manga:</td>
+                <td id="species"></td>
+            </tr>
+            <tr>
+                <td class="desc">Gender:</td>
+                <td id="gender"></td>
+            </tr>
+            <tr>
+                <td class="desc">Clan:</td>
+                <td id="house"></td>
+            </tr>
+            <tr>
+                <td class="desc">Birthday:</td>
+                <td id="year"></td>
+            </tr>
+            <tr>
+                <td class="desc">Bloodtype:</td>
+                <td id="blood"></td>
+            </tr>
+            <tr>
+                <td class="desc">Jutsu:</td>
+                <td id="patronus"></td>
+            </tr>
+            <tr>
+                <td class="desc">Actor:</td>
+                <td id="actor"></td>
+            </tr>
+        </table>
+        <br><br>
+
+        <img id="img">
+        <p id="feilMelding" class="hidden">Ingen i databasen som stemmer med søket ditt. Sjekk om du kan ha skrevet feil.</p>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
